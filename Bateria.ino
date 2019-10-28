@@ -77,6 +77,10 @@ void loop() {
     Serial.println("7");
     delay(50);
   }
+  if (analogRead(sensorPinA8) > umbral){
+    Serial.println("8");
+    delay(50);
+  }
+
 
 }
-
