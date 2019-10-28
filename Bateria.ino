@@ -81,6 +81,4 @@ void loop() {
     Serial.println("8");
     delay(50);
   }
-
-
 }
